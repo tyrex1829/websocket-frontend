@@ -1,11 +1,9 @@
+// import { useEffect, useState } from "react";
 import "./App.css";
+import ChatApp from "./components/ChatApp";
 
 function App() {
-  return (
-    <>
-      <h1>React for websockets client side</h1>
-    </>
-  );
+  return <ChatApp />;
 }
 
 export default App;
